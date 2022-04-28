@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/33b6f9425a.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Instagram Feed</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: rgb(207, 207, 207);">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="border-bottom: none;">
+          <textarea class="col" name="comentario"></textarea>
+        </div>
+        <div class="pl-3 m-3" style="border-top: none;"><a href="#"><i style="color: black;" class="fas fa-camera fa-lg m-3"></i></a><a href="#"><i style="color: black;" class="fas fa-images fa-lg m-3"></i></a></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-success">Publish</button>
+        </div>
+      </div>
+    </div>
+  </div>
+        <div class="fixed-top">
+          <header>
+            <nav style="background-color: white; border-bottom: 1px rgb(0, 0, 0, 0.3) solid;" class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a style="font-family: 'Pacifico', cursive; font-size: x-large;" class="navbar-brand ms-5" href="#"><i class="fas fa-camera-retro">&nbsp;</i>Instagram</a>
+                  <div style="display: flex;" class="justify-content-end me-5">
+                  <button type="button" class="btn btn-success placeholder-glow" style="background-color: rgb(83, 221, 64);" data-bs-toggle="modal" data-bs-target="#exampleModal">Create new post</button>
+                    <li style="list-style: none;" class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: black;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i style="color: black;" class="fas fa-tools"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                      </div>
+                  </div>
+                </div>
+              </nav>
+              <nav aria-label="Page navigation example" style="background-color: white; height: 80px; width: 100% !important; border-bottom: 1px rgb(0, 0, 0, 0.3) solid; " class="container-fluid mt-5">
+                <ul class="pagination justify-content-center" >
+                  <li class="page-item mt-4"><a class="page-link" style="color: black;" href="#"><i class="far fa-image"></i></a></li>
+                  <li class="page-item mt-4"><a class="page-link" style="color: black;" href="index-2.html"><i class="fas fa-ellipsis-v"></i><i class="fas fa-ellipsis-v"></i><i class="fas fa-ellipsis-v"></i></a></li>
+                </ul>
+              </nav>
+        </header>
+        <div class="container-fluid">
+            <div class="justify-content-center row mt-5">
+            <div class="card p-0" style="width: 40rem;">
+                <div class="p-3" style="display: flex;"><h3 style="width: 80%;">My first Photo</h3><strong style="color: grey; opacity: 0.5;">12/14</strong></div>
+                <img src="https://services.meteored.com/img/article/dia-internacional-de-las-ciudades-214811-7_1024.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <strong style="font-size: x-large; color: grey; opacity: 0.4;">23 likes</strong>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <i style="font-size: x-large;" class="far fa-heart"></i>&nbsp;<input type="text" style="border: none; font-size: x-large;" placeholder=" Coment...">
+                </div>
+              </div>
+            </div>
+            <div class="justify-content-center row mt-5">
+              <div class="card p-0" style="width: 40rem;">
+                  <div class="p-3" style="display: flex;"><h3 style="width: 80%;">My first Photo</h3><strong style="color: grey; opacity: 0.5;">12/14</strong></div>
+                  <img src="https://1.bp.blogspot.com/-j6fvXctJ994/YP2GDoLraKI/AAAAAAAAD40/l5a4u-pkfnE0nJ6wgnlQeRflERHlPvVDgCLcBGAsYHQ/s1920/golden%2Bretriever%2B%25282%2529.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <strong style="font-size: x-large; color: grey; opacity: 0.4;">23 likes</strong>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <i style="font-size: x-large;" class="far fa-heart"></i>&nbsp;<input type="text" style="border: none; font-size: x-large;" placeholder=" Coment...">
+                  </div>
+                </div>
+              </div>
+              <div class="justify-content-center row mt-5">
+                <div class="card p-0" style="width: 40rem;">
+                    <div class="p-3" style="display: flex;"><h3 style="width: 80%;">My first Photo</h3><strong style="color: grey; opacity: 0.5;">12/14</strong></div>
+                    <img src="https://lavozdelmuro.net/wp-content/uploads/2021/03/pantera-rottweiler.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <strong style="font-size: x-large; color: grey; opacity: 0.4;">23 likes</strong>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <i style="font-size: x-large;" class="far fa-heart"></i>&nbsp;<input type="text" style="border: none; font-size: x-large;" placeholder=" Coment...">
+                    </div>
+                  </div>
+                </div>
+                <div class="justify-content-center row mt-5">
+                  <div class="card p-0" style="width: 40rem;">
+                      <div class="p-3" style="display: flex;"><h3 style="width: 80%;">My first Photo</h3><strong style="color: grey; opacity: 0.5;">12/14</strong></div>
+                      <img src="https://i0.wp.com/eltiempolatino.com/wp-content/uploads/2021/12/FHFSEcsXsAAKuBb-scaled.jpg?fit=800%2C533&ssl=1" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <strong style="font-size: x-large; color: grey; opacity: 0.4;">23 likes</strong>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <i style="font-size: x-large;" class="far fa-heart"></i>&nbsp;<input type="text" style="border: none; font-size: x-large;" placeholder=" Coment...">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="justify-content-center row mt-5 mb-5">
+                    <div class="card p-0" style="width: 40rem;">
+                        <div class="p-3" style="display: flex;"><h3 style="width: 80%;">My first Photo</h3><strong style="color: grey; opacity: 0.5;">12/14</strong></div>
+                        <img src="https://thumbs.dreamstime.com/z/jay-jay-el-globo-gigante-del-helio-del-avi%C3%B3n-de-reacci%C3%B3n-12543139.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <strong style="font-size: x-large; color: grey; opacity: 0.4;">23 likes</strong>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <i style="font-size: x-large;" class="far fa-heart"></i>&nbsp;<input type="text" style="border: none; font-size: x-large;" placeholder=" Coment...">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
